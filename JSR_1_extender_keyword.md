@@ -13,7 +13,7 @@ public class Lib {
     }
 }
 
-// In your code, you are now able to extend lib and add functionality, and method chaining doesn't break:
+// In your code, you are now able to extend lib and add functionality:
 
 public class MyLib extends Lib {
     public MyLib myFunc() {
@@ -25,7 +25,7 @@ public class MyLib extends Lib {
 
 public class Main {
     public static void main() {
-        MyLib obj = new MyLib().libFunc().myFunc(); // works due to "extender"
+        MyLib obj = new MyLib().libFunc().myFunc(); // works due to "extender", and method chaining doesn't "fall back" to Lib.
     }
 }
 ```
