@@ -1,9 +1,8 @@
 # Add `extender` keyword
+`extender` keyword/type to reference the extending class. Especially useful for libraries where you want to allow method chaining.
 Its easiest to show this in an example:
 
 ```java
-// `extender` keyword/type to reference the extending class. Especially useful for libraries where you want to allow method chaining.
-
 // In the lib:
 
 public class Lib {
